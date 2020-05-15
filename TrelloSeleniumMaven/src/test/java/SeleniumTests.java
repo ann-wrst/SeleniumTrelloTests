@@ -105,6 +105,6 @@ public class SeleniumTests extends TestManager {
         boardPage.confirmCloseBoardButton.click();
         boardPage.deleteBoardCompletely.click();
         boardPage.confirmCloseBoardButton.click();
-        Assert.assertEquals(boardPage.messageAboutDeletedBoard.getText(), "Можливо ця дошка приватна. Той, хто дав вам це посилання, має запросити вас до своєї дошки або команди.");
+        Assert.assertEquals(boardPage.messageAboutDeletedBoard.getText(), "РњРѕР¶Р»РёРІРѕ С†СЏ РґРѕС€РєР° РїСЂРёРІР°С‚РЅР°. РўРѕР№, С…С‚Рѕ РґР°РІ РІР°Рј С†Рµ РїРѕСЃРёР»Р°РЅРЅСЏ, РјР°С” Р·Р°РїСЂРѕСЃРёС‚Рё РІР°СЃ РґРѕ СЃРІРѕС”С— РґРѕС€РєРё Р°Р±Рѕ РєРѕРјР°РЅРґРё.");
     }
 }
